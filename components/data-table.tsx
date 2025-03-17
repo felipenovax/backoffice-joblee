@@ -21,7 +21,7 @@ export function DataTable() {
             <TableCell>Olivia Martin</TableCell>
             <TableCell>Premium Consultation</TableCell>
             <TableCell>2023-05-15</TableCell>
-            <TableCell>$299.00</TableCell>
+            <TableCell>R$299.00</TableCell>
             <TableCell>
               <Badge className="bg-green-500 hover:bg-green-600">Completed</Badge>
             </TableCell>
@@ -31,7 +31,7 @@ export function DataTable() {
             <TableCell>Jackson Lee</TableCell>
             <TableCell>Basic Support</TableCell>
             <TableCell>2023-05-14</TableCell>
-            <TableCell>$99.00</TableCell>
+            <TableCell>R$99.00</TableCell>
             <TableCell>
               <Badge className="bg-green-500 hover:bg-green-600">Completed</Badge>
             </TableCell>
@@ -41,7 +41,7 @@ export function DataTable() {
             <TableCell>Isabella Nguyen</TableCell>
             <TableCell>Advanced Analytics</TableCell>
             <TableCell>2023-05-13</TableCell>
-            <TableCell>$199.00</TableCell>
+            <TableCell>R$199.00</TableCell>
             <TableCell>
               <Badge className="bg-yellow-500 hover:bg-yellow-600">Pending</Badge>
             </TableCell>
@@ -51,7 +51,7 @@ export function DataTable() {
             <TableCell>William Kim</TableCell>
             <TableCell>Custom Development</TableCell>
             <TableCell>2023-05-12</TableCell>
-            <TableCell>$499.00</TableCell>
+            <TableCell>R$499.00</TableCell>
             <TableCell>
               <Badge className="bg-green-500 hover:bg-green-600">Completed</Badge>
             </TableCell>
@@ -61,7 +61,7 @@ export function DataTable() {
             <TableCell>Sofia Davis</TableCell>
             <TableCell>Maintenance Plan</TableCell>
             <TableCell>2023-05-11</TableCell>
-            <TableCell>$149.00</TableCell>
+            <TableCell>R$149.00</TableCell>
             <TableCell>
               <Badge className="bg-red-500 hover:bg-red-600">Failed</Badge>
             </TableCell>

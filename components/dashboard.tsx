@@ -226,7 +226,7 @@ export default function Dashboard() {
                     <BarChart3 className="h-4 w-4 text-muted-foreground" />
                   </CardHeader>
                   <CardContent>
-                    <div className="text-2xl font-bold">$78.92</div>
+                    <div className="text-2xl font-bold">R$78.92</div>
                     <p className="text-xs text-muted-foreground">+4.5% desde o último mes</p>
                   </CardContent>
                 </Card>
@@ -243,8 +243,8 @@ export default function Dashboard() {
                 </Card>
                 <Card className="col-span-3">
                   <CardHeader>
-                    <CardTitle>Services Breakdown</CardTitle>
-                    <CardDescription>Distribution of services hired this month</CardDescription>
+                    <CardTitle>Detalhamento dos serviços</CardTitle>
+                    <CardDescription>Distribuição dos serviços contratados neste mês</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ServicesChart />
@@ -254,8 +254,8 @@ export default function Dashboard() {
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
                 <Card className="col-span-4">
                   <CardHeader>
-                    <CardTitle>Recent Sales</CardTitle>
-                    <CardDescription>You made 265 sales this month.</CardDescription>
+                    <CardTitle>Vendas recentes</CardTitle>
+                    <CardDescription>Você realizou 265 vendas neste mês.</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <RecentSales />
@@ -263,16 +263,16 @@ export default function Dashboard() {
                 </Card>
                 <Card className="col-span-3">
                   <CardHeader>
-                    <CardTitle>Top Services</CardTitle>
-                    <CardDescription>Most popular services this month</CardDescription>
+                    <CardTitle>Principais serviços</CardTitle>
+                    <CardDescription>Serviços mais populares deste mês</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
                       <div className="flex items-center">
                         <div className="w-full flex-1">
                           <div className="flex items-center justify-between">
-                            <div>Premium Consultation</div>
-                            <div className="font-medium">$299</div>
+                            <div>Consulta Premium</div>
+                            <div className="font-medium">R$299</div>
                           </div>
                           <div className="mt-1 w-full rounded-full bg-muted">
                             <div className="h-2 w-[85%] rounded-full bg-primary"></div>
@@ -282,8 +282,8 @@ export default function Dashboard() {
                       <div className="flex items-center">
                         <div className="w-full flex-1">
                           <div className="flex items-center justify-between">
-                            <div>Basic Support</div>
-                            <div className="font-medium">$99</div>
+                            <div>Suporte básico</div>
+                            <div className="font-medium">R$99</div>
                           </div>
                           <div className="mt-1 w-full rounded-full bg-muted">
                             <div className="h-2 w-[65%] rounded-full bg-primary"></div>
@@ -293,8 +293,8 @@ export default function Dashboard() {
                       <div className="flex items-center">
                         <div className="w-full flex-1">
                           <div className="flex items-center justify-between">
-                            <div>Advanced Analytics</div>
-                            <div className="font-medium">$199</div>
+                            <div>Análise avançada</div>
+                            <div className="font-medium">R$199</div>
                           </div>
                           <div className="mt-1 w-full rounded-full bg-muted">
                             <div className="h-2 w-[45%] rounded-full bg-primary"></div>
@@ -304,8 +304,8 @@ export default function Dashboard() {
                       <div className="flex items-center">
                         <div className="w-full flex-1">
                           <div className="flex items-center justify-between">
-                            <div>Custom Development</div>
-                            <div className="font-medium">$499</div>
+                            <div>Desenvolvimento personalizado</div>
+                            <div className="font-medium">R$499</div>
                           </div>
                           <div className="mt-1 w-full rounded-full bg-muted">
                             <div className="h-2 w-[35%] rounded-full bg-primary"></div>
@@ -315,8 +315,8 @@ export default function Dashboard() {
                       <div className="flex items-center">
                         <div className="w-full flex-1">
                           <div className="flex items-center justify-between">
-                            <div>Maintenance Plan</div>
-                            <div className="font-medium">$149</div>
+                            <div>Plano de manutenção</div>
+                            <div className="font-medium">R$149</div>
                           </div>
                           <div className="mt-1 w-full rounded-full bg-muted">
                             <div className="h-2 w-[25%] rounded-full bg-primary"></div>
@@ -327,22 +327,22 @@ export default function Dashboard() {
                   </CardContent>
                   <CardFooter>
                     <Button variant="outline" className="w-full">
-                      View All Services
+                    Exibir todos os serviços
                     </Button>
                   </CardFooter>
                 </Card>
               </div>
               <Card>
                 <CardHeader>
-                  <CardTitle>Recent Transactions</CardTitle>
-                  <CardDescription>Detailed view of recent service purchases</CardDescription>
+                  <CardTitle>Transações recentes</CardTitle>
+                  <CardDescription>Visualização detalhada das compras recentes de serviços</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <DataTable />
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <Button variant="outline">Previous</Button>
-                  <Button variant="outline">Next</Button>
+                  <Button variant="outline">Anterior</Button>
+                  <Button variant="outline">Proximo</Button>
                 </CardFooter>
               </Card>
             </TabsContent>
