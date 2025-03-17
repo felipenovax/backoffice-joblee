@@ -178,64 +178,64 @@ export default function Dashboard() {
             <h1 className="text-lg font-semibold md:text-2xl">Dashboard</h1>
             <Button size="sm" className="ml-auto gap-1">
               <Download className="h-4 w-4" />
-              Download Reports
+              Baixar reports
             </Button>
           </div>
           <Tabs defaultValue="overview" className="space-y-4">
             <TabsList>
-              <TabsTrigger value="overview">Overview</TabsTrigger>
+              <TabsTrigger value="overview">Geral</TabsTrigger>
               <TabsTrigger value="analytics">Analytics</TabsTrigger>
               <TabsTrigger value="reports">Reports</TabsTrigger>
-              <TabsTrigger value="notifications">Notifications</TabsTrigger>
+              <TabsTrigger value="notifications">Notificações</TabsTrigger>
             </TabsList>
             <TabsContent value="overview" className="space-y-4">
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Total Revenue</CardTitle>
+                    <CardTitle className="text-sm font-medium">Total receita</CardTitle>
                     <DollarSign className="h-4 w-4 text-muted-foreground" />
                   </CardHeader>
                   <CardContent>
-                    <div className="text-2xl font-bold">$45,231.89</div>
-                    <p className="text-xs text-muted-foreground">+20.1% from last month</p>
+                    <div className="text-2xl font-bold">R$45,231.89</div>
+                    <p className="text-xs text-muted-foreground">+20.1% desde o último mes</p>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Services Hired</CardTitle>
+                    <CardTitle className="text-sm font-medium">Serviços contratados</CardTitle>
                     <ShoppingCart className="h-4 w-4 text-muted-foreground" />
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">+573</div>
-                    <p className="text-xs text-muted-foreground">+12.4% from last month</p>
+                    <p className="text-xs text-muted-foreground">+12.4% desde o último mes</p>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Active Customers</CardTitle>
+                    <CardTitle className="text-sm font-medium">Cliente ativos</CardTitle>
                     <Users className="h-4 w-4 text-muted-foreground" />
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">1,324</div>
-                    <p className="text-xs text-muted-foreground">+8.2% from last month</p>
+                    <p className="text-xs text-muted-foreground">+8.2% desde o último mes</p>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Avg. Service Value</CardTitle>
+                    <CardTitle className="text-sm font-medium">Media de valores de serviços</CardTitle>
                     <BarChart3 className="h-4 w-4 text-muted-foreground" />
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">$78.92</div>
-                    <p className="text-xs text-muted-foreground">+4.5% from last month</p>
+                    <p className="text-xs text-muted-foreground">+4.5% desde o último mes</p>
                   </CardContent>
                 </Card>
               </div>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
                 <Card className="col-span-4">
                   <CardHeader>
-                    <CardTitle>Revenue Overview</CardTitle>
-                    <CardDescription>Monthly revenue breakdown for the current year</CardDescription>
+                    <CardTitle>Visão geral da receita</CardTitle>
+                    <CardDescription>Detalhamento da receita mensal do ano corrente</CardDescription>
                   </CardHeader>
                   <CardContent className="pl-2">
                     <RevenueChart />
