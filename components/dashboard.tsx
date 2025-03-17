@@ -88,7 +88,7 @@ export default function Dashboard() {
         </Sheet>
         <div className="flex items-center gap-2">
           <LayoutDashboard className="h-6 w-6" />
-          <span className="text-lg font-semibold">Admin Dashboard</span>
+          <span className="text-lg font-semibold">Joblee Dashboard</span>
         </div>
         <div className="ml-auto flex items-center gap-4">
           <form className="hidden md:flex">
